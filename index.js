@@ -43,7 +43,7 @@ for (let i = 0; i < numSlices; i++){
 
 let elapsed = 0.0;
 let accel = 0.0;
-let acceldx = 3;
+let acceldx = Math.random()*5+3;
 
 app.ticker.add((delta) => {
     elapsed += delta;
